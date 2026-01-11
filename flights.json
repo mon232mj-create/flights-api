@@ -1,0 +1,36 @@
+[
+  { "from": "bangalore", "to": "pune", "airline": "IndiGo", "flight": "6E-345", "price": 4200 },
+  { "from": "bangalore", "to": "pune", "airline": "Vistara", "flight": "UK-821", "price": 4800 },
+  { "from": "bangalore", "to": "pune", "airline": "Akasa", "flight": "QP-114", "price": 3900 },
+
+  { "from": "bangalore", "to": "delhi", "airline": "IndiGo", "flight": "6E-230", "price": 5200 },
+  { "from": "bangalore", "to": "delhi", "airline": "Air India", "flight": "AI-502", "price": 5800 },
+  { "from": "bangalore", "to": "delhi", "airline": "Vistara", "flight": "UK-818", "price": 6100 },
+
+  { "from": "bangalore", "to": "mumbai", "airline": "IndiGo", "flight": "6E-432", "price": 3600 },
+  { "from": "bangalore", "to": "mumbai", "airline": "Akasa", "flight": "QP-211", "price": 3400 },
+  { "from": "bangalore", "to": "mumbai", "airline": "Vistara", "flight": "UK-996", "price": 4300 },
+
+  { "from": "delhi", "to": "mumbai", "airline": "Air India", "flight": "AI-101", "price": 5500 },
+  { "from": "delhi", "to": "mumbai", "airline": "IndiGo", "flight": "6E-189", "price": 4800 },
+  { "from": "delhi", "to": "mumbai", "airline": "Vistara", "flight": "UK-940", "price": 6100 },
+
+  { "from": "mumbai", "to": "delhi", "airline": "IndiGo", "flight": "6E-210", "price": 5300 },
+  { "from": "mumbai", "to": "delhi", "airline": "Air India", "flight": "AI-202", "price": 5700 },
+  { "from": "mumbai", "to": "delhi", "airline": "Vistara", "flight": "UK-933", "price": 6000 },
+
+  { "from": "chennai", "to": "bangalore", "airline": "IndiGo", "flight": "6E-622", "price": 2800 },
+  { "from": "chennai", "to": "bangalore", "airline": "Akasa", "flight": "QP-332", "price": 2600 },
+
+  { "from": "hyderabad", "to": "bangalore", "airline": "IndiGo", "flight": "6E-540", "price": 3100 },
+  { "from": "hyderabad", "to": "bangalore", "airline": "Vistara", "flight": "UK-842", "price": 3600 },
+
+  { "from": "pune", "to": "bangalore", "airline": "IndiGo", "flight": "6E-346", "price": 4300 },
+  { "from": "pune", "to": "bangalore", "airline": "Akasa", "flight": "QP-115", "price": 3900 },
+
+  { "from": "kolkata", "to": "delhi", "airline": "Air India", "flight": "AI-765", "price": 6200 },
+  { "from": "kolkata", "to": "delhi", "airline": "IndiGo", "flight": "6E-532", "price": 5700 },
+
+  { "from": "kochi", "to": "bangalore", "airline": "IndiGo", "flight": "6E-781", "price": 3200 },
+  { "from": "kochi", "to": "bangalore", "airline": "Vistara", "flight": "UK-901", "price": 3800 }
+]
