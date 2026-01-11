@@ -1,36 +1,46 @@
 [
-  { "from": "bangalore", "to": "pune", "airline": "IndiGo", "flight": "6E-345", "price": 4200 },
-  { "from": "bangalore", "to": "pune", "airline": "Vistara", "flight": "UK-821", "price": 4800 },
-  { "from": "bangalore", "to": "pune", "airline": "Akasa", "flight": "QP-114", "price": 3900 },
+  { "from":"bangalore","to":"pune","airline":"IndiGo","flight":"6E-345","price":4200,"duration":"1h 40m","stops":0,"route":["Bangalore","Pune"] },
+  { "from":"bangalore","to":"pune","airline":"Vistara","flight":"UK-821","price":4800,"duration":"1h 35m","stops":0,"route":["Bangalore","Pune"] },
 
-  { "from": "bangalore", "to": "delhi", "airline": "IndiGo", "flight": "6E-230", "price": 5200 },
-  { "from": "bangalore", "to": "delhi", "airline": "Air India", "flight": "AI-502", "price": 5800 },
-  { "from": "bangalore", "to": "delhi", "airline": "Vistara", "flight": "UK-818", "price": 6100 },
+  { "from":"bangalore","to":"mumbai","airline":"IndiGo","flight":"6E-432","price":3600,"duration":"1h 50m","stops":0,"route":["Bangalore","Mumbai"] },
+  { "from":"mumbai","to":"bangalore","airline":"Vistara","flight":"UK-994","price":4200,"duration":"1h 50m","stops":0,"route":["Mumbai","Bangalore"] },
 
-  { "from": "bangalore", "to": "mumbai", "airline": "IndiGo", "flight": "6E-432", "price": 3600 },
-  { "from": "bangalore", "to": "mumbai", "airline": "Akasa", "flight": "QP-211", "price": 3400 },
-  { "from": "bangalore", "to": "mumbai", "airline": "Vistara", "flight": "UK-996", "price": 4300 },
+  { "from":"bangalore","to":"delhi","airline":"Air India","flight":"AI-502","price":5800,"duration":"2h 50m","stops":0,"route":["Bangalore","Delhi"] },
+  { "from":"delhi","to":"bangalore","airline":"IndiGo","flight":"6E-231","price":5200,"duration":"2h 45m","stops":0,"route":["Delhi","Bangalore"] },
 
-  { "from": "delhi", "to": "mumbai", "airline": "Air India", "flight": "AI-101", "price": 5500 },
-  { "from": "delhi", "to": "mumbai", "airline": "IndiGo", "flight": "6E-189", "price": 4800 },
-  { "from": "delhi", "to": "mumbai", "airline": "Vistara", "flight": "UK-940", "price": 6100 },
+  { "from":"hyderabad","to":"bangalore","airline":"Akasa","flight":"QP-222","price":3100,"duration":"1h 20m","stops":0,"route":["Hyderabad","Bangalore"] },
+  { "from":"chennai","to":"bangalore","airline":"IndiGo","flight":"6E-622","price":2800,"duration":"1h","stops":0,"route":["Chennai","Bangalore"] },
 
-  { "from": "mumbai", "to": "delhi", "airline": "IndiGo", "flight": "6E-210", "price": 5300 },
-  { "from": "mumbai", "to": "delhi", "airline": "Air India", "flight": "AI-202", "price": 5700 },
-  { "from": "mumbai", "to": "delhi", "airline": "Vistara", "flight": "UK-933", "price": 6000 },
+  { "from":"bangalore","to":"dubai","airline":"Emirates","flight":"EK-569","price":28000,"duration":"4h 20m","stops":0,"route":["Bangalore","Dubai"] },
+  { "from":"mumbai","to":"dubai","airline":"FlyDubai","flight":"FZ-445","price":24000,"duration":"3h 50m","stops":0,"route":["Mumbai","Dubai"] },
+  { "from":"delhi","to":"dubai","airline":"Emirates","flight":"EK-511","price":26000,"duration":"3h 40m","stops":0,"route":["Delhi","Dubai"] },
 
-  { "from": "chennai", "to": "bangalore", "airline": "IndiGo", "flight": "6E-622", "price": 2800 },
-  { "from": "chennai", "to": "bangalore", "airline": "Akasa", "flight": "QP-332", "price": 2600 },
+  { "from":"bangalore","to":"singapore","airline":"Singapore Airlines","flight":"SQ-423","price":35000,"duration":"5h 10m","stops":0,"route":["Bangalore","Singapore"] },
+  { "from":"delhi","to":"singapore","airline":"Vistara","flight":"UK-115","price":39000,"duration":"5h 30m","stops":0,"route":["Delhi","Singapore"] },
+  { "from":"mumbai","to":"singapore","airline":"Scoot","flight":"TR-112","price":33000,"duration":"5h","stops":0,"route":["Mumbai","Singapore"] },
 
-  { "from": "hyderabad", "to": "bangalore", "airline": "IndiGo", "flight": "6E-540", "price": 3100 },
-  { "from": "hyderabad", "to": "bangalore", "airline": "Vistara", "flight": "UK-842", "price": 3600 },
+  { "from":"bangalore","to":"london","airline":"Lufthansa","flight":"LH-755","price":58000,"duration":"12h 30m","stops":1,"route":["Bangalore","Frankfurt","London"] },
+  { "from":"mumbai","to":"london","airline":"British Airways","flight":"BA-198","price":60000,"duration":"9h 40m","stops":0,"route":["Mumbai","London"] },
+  { "from":"delhi","to":"london","airline":"Air India","flight":"AI-161","price":57000,"duration":"8h 55m","stops":0,"route":["Delhi","London"] },
 
-  { "from": "pune", "to": "bangalore", "airline": "IndiGo", "flight": "6E-346", "price": 4300 },
-  { "from": "pune", "to": "bangalore", "airline": "Akasa", "flight": "QP-115", "price": 3900 },
+  { "from":"bangalore","to":"paris","airline":"Air France","flight":"AF-191","price":62000,"duration":"13h 15m","stops":1,"route":["Bangalore","Dubai","Paris"] },
+  { "from":"mumbai","to":"paris","airline":"Emirates","flight":"EK-215","price":64000,"duration":"11h 50m","stops":1,"route":["Mumbai","Dubai","Paris"] },
 
-  { "from": "kolkata", "to": "delhi", "airline": "Air India", "flight": "AI-765", "price": 6200 },
-  { "from": "kolkata", "to": "delhi", "airline": "IndiGo", "flight": "6E-532", "price": 5700 },
+  { "from":"bangalore","to":"new york","airline":"Emirates","flight":"EK-567","price":72000,"duration":"22h 15m","stops":1,"route":["Bangalore","Dubai","New York"] },
+  { "from":"delhi","to":"new york","airline":"Air India","flight":"AI-101","price":76000,"duration":"16h","stops":0,"route":["Delhi","New York"] },
+  { "from":"mumbai","to":"new york","airline":"Qatar Airways","flight":"QR-720","price":74000,"duration":"19h","stops":1,"route":["Mumbai","Doha","New York"] },
 
-  { "from": "kochi", "to": "bangalore", "airline": "IndiGo", "flight": "6E-781", "price": 3200 },
-  { "from": "kochi", "to": "bangalore", "airline": "Vistara", "flight": "UK-901", "price": 3800 }
+  { "from":"delhi","to":"toronto","airline":"Air Canada","flight":"AC-121","price":82000,"duration":"20h 10m","stops":1,"route":["Delhi","London","Toronto"] },
+  { "from":"mumbai","to":"toronto","airline":"British Airways","flight":"BA-92","price":84000,"duration":"19h 40m","stops":1,"route":["Mumbai","London","Toronto"] },
+
+  { "from":"bangalore","to":"sydney","airline":"Singapore Airlines","flight":"SQ-231","price":91000,"duration":"15h 50m","stops":1,"route":["Bangalore","Singapore","Sydney"] },
+  { "from":"chennai","to":"sydney","airline":"Qantas","flight":"QF-68","price":88000,"duration":"16h 40m","stops":1,"route":["Chennai","Singapore","Sydney"] },
+
+  { "from":"bangalore","to":"tokyo","airline":"Japan Airlines","flight":"JL-32","price":67000,"duration":"8h 30m","stops":0,"route":["Bangalore","Tokyo"] },
+  { "from":"delhi","to":"tokyo","airline":"ANA","flight":"NH-838","price":69000,"duration":"7h 45m","stops":0,"route":["Delhi","Tokyo"] },
+
+  { "from":"bangalore","to":"seoul","airline":"Korean Air","flight":"KE-482","price":72000,"duration":"8h 10m","stops":1,"route":["Bangalore","Bangkok","Seoul"] },
+  { "from":"mumbai","to":"bangkok","airline":"Thai Airways","flight":"TG-318","price":31000,"duration":"4h 30m","stops":0,"route":["Mumbai","Bangkok"] },
+
+  { "from":"bangalore","to":"kuala lumpur","airline":"Malaysia Airlines","flight":"MH-193","price":32000,"duration":"4h 40m","stops":0,"route":["Bangalore","Kuala Lumpur"] }
 ]
